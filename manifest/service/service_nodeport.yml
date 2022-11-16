@@ -1,0 +1,15 @@
+apiVesion: v1
+kind: service 
+metadata: 
+    name: nginx-nodeport
+    spec:
+      type: nginx-NodePort
+      selector:
+         app: nginx 
+      ports:
+       - name: http
+         port: 80
+         NodePort: 3000
+
+
+
