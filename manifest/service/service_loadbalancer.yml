@@ -1,0 +1,12 @@
+apiVesrion: v1
+kind: service 
+metadata:
+    name: nginix-loadbalancer
+    spec:
+      type: LoadBalancer 
+      selector:
+         app: nginx 
+      ports:
+        - protocol: TCP 
+          port: 80
+          tagetport: 80
