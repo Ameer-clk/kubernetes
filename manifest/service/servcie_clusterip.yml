@@ -1,0 +1,16 @@
+apiVesrion: v1
+kind: service 
+metadata:
+    name: nginx-clusterip 
+    spec:
+      selector:
+         app: nginx 
+      ports:
+      - protocol: TCP
+        port: 80
+        tagetport: 80
+
+
+
+      
+      
