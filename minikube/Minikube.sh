@@ -30,8 +30,5 @@ minikube stop
 #Delete Cluster
 minikube delete --all
 
-For more details and commands, click here
-Install and setup kubectl on linux https://kubernetes.io/docs/tasks/tools/
-
 Install and setup kubectl on linux, https://kubernetes.io/docs/tasks/tools/
 
