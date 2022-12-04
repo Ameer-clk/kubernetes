@@ -33,6 +33,17 @@ RPM Package:
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-latest.x86_64.rpm
 sudo rpm -Uvh minikube-latest.x86_64.rpm
 
+After the installation if you are using in the root user the install these packages also:
+
+yum install cronntrack
+apt install cronntrack
+
+Install cri-dockerd 
+
+
+
+
+
 
 
 
