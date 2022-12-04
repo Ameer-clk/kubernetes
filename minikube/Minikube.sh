@@ -3,7 +3,10 @@ Minikube is a lightweight Kubernetes implementation that creates a VM on your lo
 
 Minikube Installation
 
+
 Install the latest minikube stable release on x86-64 Linux using binary download:
+#Install the latest minikube stable release on x86-64 Linux using binary download:
+
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
@@ -29,3 +32,6 @@ minikube delete --all
 
 For more details and commands, click here
 Install and setup kubectl on linux https://kubernetes.io/docs/tasks/tools/
+
+Install and setup kubectl on linux, https://kubernetes.io/docs/tasks/tools/
+
