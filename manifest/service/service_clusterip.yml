@@ -6,6 +6,6 @@ metadata:
      selector:
        app: nginx
     ports:
-      - protocol: http
+      - protocol: TCP
         ports: 80
         tagetport: 80
