@@ -1,7 +1,7 @@
 apiVesrion: v1
 kind: service 
 metadata:
-    name: nginix-loadbalancer
+    name: nginx-loadbalancer
     spec:
       type: LoadBalancer 
       selector:
