@@ -14,8 +14,8 @@ metadata:
            name: nginx 
            labels:
               app: nginx 
-           ports:
-             container: 
+           spec:
+             containers: 
                - name: nginx 
                  image: nginx 
                  port:
