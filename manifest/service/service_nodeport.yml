@@ -10,6 +10,3 @@ metadata:
        - name: http
          port: 80
          NodePort: 3000
-
-
-
